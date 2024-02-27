@@ -47,6 +47,11 @@ public class Calculator {
                 System.out.println("Please enter num");
                 int n = sc.nextInt();
 
+                if (n <= 0){
+                    System.out.println("Undefined.");
+                    break;
+                }
+
                 long factorial = calculateFactorial(n);
                 System.out.println("The answer is: " + factorial);
                 break;
