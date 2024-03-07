@@ -1,2 +1,4 @@
 # Java-Calculator
-Calculator made with java You can make +,-,*,/,**,!n
+Calculator made with java
+
+You can calculate Factorial, exponential numbers amd 4 transactions
